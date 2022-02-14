@@ -132,7 +132,7 @@ function solutions(board) {
 function isTie(num, isGameOver) {
   if (num == 9 && !isGameOver) {
     console.log(
-      "Game is tie ! If you want to play again type restart() and press Enter"
+      "Game  is tie ! If you want to play again type restart() and press Enter"
     );
     isGameOver = true;
   }
